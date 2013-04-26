@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/html5-canvas-drawing-app.js"></script>
+        <script type="text/javascript" src="js/paint.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+    </head>
+    <body>
+        <div id="container">
+            <div id="canvas_container">
+                <canvas id="mycanvas" width="600" height="300"></canvas>                
+            </div>       
+            <div id = "buttons">                
+                <div id="colors">
+                   <img src="img/boton_negro.png" id="color1" class="color">
+                   <img src="img/boton_verde.png" id="color2" class="color">
+                   <img src="img/boton_rojo.png" id="color3" class="color">
+                   <img src="img/boton_azul.png" id="color4" class="color">
+                   <img src="img/borrar.png" id="clean" >
+                </div>
+
+                <div id="sizes">
+                   <input type="button" value="Size 1" name="tam1" id="size1"/>
+                   <input type="button" value="Size 2" name="tam2" id="size2"/>
+                   <input type="button" value="Size 3" name="tam3" id="size3"/>
+                </div>
+
+                <div id="save_container">
+                    <input type="button" value="Save" name="save" id="save"/>
+                </div>
+            </div>
+            <div id="stored_image">            
+            </div>
+        </div>
+    </body>
+</html>

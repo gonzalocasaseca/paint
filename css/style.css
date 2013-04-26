@@ -1,0 +1,43 @@
+/* 
+    Document   : style
+    Created on : Apr 24, 2013, 11:09:57 AM
+    Author     : Gonzalo Hernández Casaseca
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+#canvas_container, #stored_image, #buttons
+{   
+    position: relative;
+    clear: both;
+}
+
+#mycanvas
+{
+    position:relative;
+    border-width: thin;
+    border-color: black;
+    border-style: solid;
+}
+	
+#colors, #sizes, #save_container
+{    
+    display: inline-block;
+    position:relative;
+    float: left;
+}
+
+#sizes
+{
+    margin-left: 20px;
+}
+
+#save_container
+{
+    margin-left: 30px;
+}
